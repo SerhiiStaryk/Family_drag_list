@@ -1,0 +1,10 @@
+.drags {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.align-button{
+    display: flex;
+    justify-content: center;
+}
