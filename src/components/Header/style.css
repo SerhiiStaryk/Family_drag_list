@@ -1,0 +1,12 @@
+.button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn:last-child {
+    margin-left: 15px;
+}
+
+.header{
+    margin-top: 15px;
+}
