@@ -6,3 +6,11 @@
 .btn-more{
     margin: 0 auto;
 }
+
+.drag-card-checbox{
+    margin-left: 0!important;
+}
+
+.align-button__right{
+    justify-content: flex-end;
+}
