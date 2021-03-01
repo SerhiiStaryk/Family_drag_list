@@ -4,21 +4,29 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
+
 import './style.css';
+import Radium from 'radium';
 
 
 class DrugCard extends Component {
     state = {
         box: true
     }
+
+    style = {
+        ':hover': {
+            border: '1px solid green',
+            cursor: 'pointer'
+        }
+    }
     render() {
         return (
-            <Card className="drag-card">
+            <Card className="drag-card" style={this.style}>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
                         Аквамаріс
@@ -65,4 +73,4 @@ class DrugCard extends Component {
     }
 }
 
-export default DrugCard;
+export default Radium(DrugCard);
