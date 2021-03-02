@@ -9,7 +9,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
-import './style.css';
+import './style.scss';
 import Radium from 'radium';
 
 

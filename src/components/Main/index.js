@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import DragCard from '../DragCard';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import Button from '@material-ui/core/Button';
-import './style.css';
+import './style.scss';
 
 class Main extends Component {
     render() {

@@ -3,7 +3,7 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import logo from '../../images/logo.svg';
-import './style.css';
+import './style.scss';
 
 class Header extends Component {
     render() {
